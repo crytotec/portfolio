@@ -12,32 +12,31 @@
 </head>
 <body id="body">
     <!-- Navbar -->
-    <div class="flex items-center cursor-pointer justify-between bg-white sticky z-10 top-0 py-1 ">
+    <nav class="flex items-center justify-between bg-white sticky z-10 top-0 py-4 shadow-md">
         <div class="flex items-center font-bold text-xl text-gray-600 mx-auto">
             Cryto<span class="text-red-500">tec</span>
         </div>
-        <div class="hidden md:flex mx-auto gap-10 justify-center items-center text-gray-600 text-[12px]">
-            <a href="/index.html">Home</a>
-            <a href="/About.html">About</a>
-            <a href="/service.html">Services</a>
-            <a href="/contact.html">Contact</a>
+        <div class="hidden md:flex mx-auto gap-10 text-gray-600 text-sm">
+            <a href="/index.html" class="hover:text-red-500 transition">Home</a>
+            <a href="/About.html" class="hover:text-red-500 transition">About</a>
+            <a href="/service.html" class="hover:text-red-500 transition">Services</a>
+            <a href="/contact.html" class="hover:text-red-500 transition">Contact</a>
         </div>
         <div class="md:hidden cursor-pointer">
             <img id="hamburger" src="./images/hamburger.png" class="invert" alt="Menu">
             <img id="close" src="./images/close.png" class="hidden invert" alt="Close">
         </div>
-    </div>
+    </nav>
     
     <!-- Mobile Menu -->
-    <div id="mobile-menu" class="hidden absolute z-10 sticky top-16 left-0 w-full h-full rounded-md bg-black bg-opacity-50 text-right text-white">
-        <a href="/index.html" class="block py-2 px-4">Home</a>
-        <a href="/About.html" class="block py-2 px-4">About</a>
-        <a href="/service.html" class="block py-2 px-4">Services</a>
-        <a href="/contact.html" class="block py-2 px-4">Contact</a>
+    <div id="mobile-menu" class="hidden absolute z-10 top-16 left-0 w-full h-full bg-black bg-opacity-50 text-right text-white">
+        <a href="/index.html" class="block py-2 px-4 hover:bg-gray-700">Home</a>
+        <a href="/About.html" class="block py-2 px-4 hover:bg-gray-700">About</a>
+        <a href="/service.html" class="block py-2 px-4 hover:bg-gray-700">Services</a>
+        <a href="/contact.html" class="block py-2 px-4 hover:bg-gray-700">Contact</a>
     </div>
     
     <!-- Main Content -->
-    
     <div class="w-full bg-yellow-400">
         <h1 class="text-center font-bold text-white text-xl py-4">About Me</h1>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-center mx-auto max-w-6xl p-4">
@@ -45,9 +44,8 @@
             <div class="text-justify text-white">
                 My name is Oladimeji Seyi Damola, I am a website developer with a Bachelor's degree in Anatomy from Ladoke Akintola University of Technology. I specialize in creating dynamic and responsive websites using HTML, CSS, Tailwind CSS, and React.js, blending creativity with technical expertise to deliver outstanding web experiences.
             </div>
-        </ div>
+        </div>
     </div>
-    
     
     <footer>
         <div class="bg-white p-20 mx-auto text-center">
@@ -65,7 +63,7 @@
                     <i class="fab fa-tiktok fa-x"></i>
                 </a>
                 <a href="https://x.com/crytotec" class="text-gray-600">
-                    <i class="fab fa-twitter fa-x"></i>
+ <i class="fab fa-twitter fa-x"></i>
                 </a>
                 <a href="https://github.com/crytotec" class="text-gray-600">
                     <i class="fab fa-github fa-x"></i>

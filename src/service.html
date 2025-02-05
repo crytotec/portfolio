@@ -11,35 +11,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body id="body">
-   <!-- Navbar -->
-   <div class="flex items-center cursor-pointer justify-between bg-white sticky z-10 top-0 py-1 ">
-    <div class="flex items-center font-bold text-xl text-gray-600 mx-auto">
-        Cryto<span class="text-red-500">tec</span>
-    </div>
-    <div class="hidden md:flex mx-auto gap-10 justify-center items-center text-gray-600 text-[12px]">
-        <a href="/index.html">Home</a>
-        <a href="/About.html">About</a>
-        <a href="/service.html">Services</a>
-        <a href="/contact.html">Contact</a>
-    </div>
-    <div class="md:hidden cursor-pointer">
-        <img id="hamburger" src="./images/hamburger.png" class="invert" alt="Menu">
-        <img id="close" src="./images/close.png" class="hidden invert" alt="Close">
-    </div>
-</div>
-
-<!-- Mobile Menu -->
-<div id="mobile-menu" class="hidden absolute z-10 sticky top-16 left-0 w-full h-full rounded-md bg-black bg-opacity-50 text-right text-white">
-    <a href="/index.html" class="block py-2 px-4">Home</a>
-    <a href="/About.html" class="block py-2 px-4">About</a>
-    <a href="/service.html" class="block py-2 px-4">Services</a>
-    <a href="/contact.html" class="block py-2 px-4">Contact</a>
-</div>    
-
+    <nav class="flex items-center justify-between bg-white sticky z-10 top-0 py-4 shadow-md">
+        <div class="flex items-center font-bold text-xl text-gray-600 mx-auto">
+            Cryto<span class="text-red-500">tec</span>
+        </div>
+        <div class="hidden md:flex mx-auto gap-10 text-gray-600 text-sm">
+            <a href="/index.html" class="hover:text-red-500 transition">Home</a>
+            <a href="/About.html" class="hover:text-red-500 transition">About</a>
+            <a href="/service.html" class="hover:text-red-500 transition">Services</a>
+            <a href="/contact.html" class="hover:text-red-500 transition">Contact</a>
+        </div>
+        <div class="md:hidden cursor-pointer">
+            <img id="hamburger" src="./images/hamburger.png" class="invert" alt="Menu">
+            <img id="close" src="./images/close.png" class="hidden invert" alt="Close">
+        </div>
+    </nav>
     
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden absolute z-10 top-16 left-0 w-full h-full bg-black bg-opacity-50 text-right text-white">
+        <a href="/index.html" class="block py-2 px-4 hover:bg-gray-700">Home</a>
+        <a href="/About.html" class="block py-2 px-4 hover:bg-gray-700">About</a>
+        <a href="/service.html" class="block py-2 px-4 hover:bg-gray-700">Services</a>
+        <a href="/contact.html" class="block py-2 px-4 hover:bg-gray-700">Contact</a>
+    </div>
+
+    <!-- Main Content -->
     <h2 class="text-2xl text-yellow-400 text-center font-semibold mb-4">My Skills</h2>
     <p class="text-xl text-yellow-400 text-center font-semibold mb-4">What I offer:</p>
-    <div class="w-full max-w-2xl bounce-out h-auto flex items-center  rounded shadow-2xl bg-yellow-400 mx-auto mb-2 p-6">
+    <div class="w-full max-w-2xl bounce-out h-auto flex items-center rounded shadow-2xl bg-yellow-400 mx-auto mb-2 p-6">
         <ul class="flex flex-col space-y-4">
             <li class="text-white">
                 <span class="font-bold text-xl">HTML & CSS:</span> Crafting clean, semantic markup and styling to ensure your website is visually appealing and accessible.
@@ -62,7 +61,7 @@
                 <a href="https://www.linkedin.com/in/seyioladimeji790/" class="text-gray-600">
                     <i class="fab fa-linkedin fa-x"></i>
                 </a>
-                <a href="https://www.instagram.com/seyi6541/" class="text-gray-600">
+                <a href="https://www .instagram.com/seyi6541/" class="text-gray-600">
                     <i class="fab fa-instagram fa-x"></i>
                 </a>
                 <a href="https://www.tiktok.com/@crytotec790" class="text-gray-600">
