@@ -1,0 +1,16 @@
+@keyframes bounce-out {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Move up */
+    }
+    100% {
+        transform: translateY(0); /* Return to original position */
+    }
+}
+
+/* Apply the bounce effect on hover */
+.bounce-out:hover {
+    animation: bounce-out 0.5s ease forwards;
+}
