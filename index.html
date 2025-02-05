@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crytotec</title>
+    <link rel='stylesheet' href='style/output.css'>
+    <link rel='stylesheet' href='main.css'>
+    <link rel="shortcut icon" href="images/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body id="body">
+    <!-- Navbar -->
+    <div class="flex items-center cursor-pointer justify-between bg-white sticky z-10 top-0 py-1 ">
+        <div class="flex items-center font-bold text-xl text-gray-600 mx-auto">
+            Cryto<span class="text-red-500">tec</span>
+        </div>
+        <div class="hidden md:flex mx-auto gap-10 justify-center items-center text-gray-600 text-[12px]">
+            <a href="/index.html">Home</a>
+            <a href="/About.html">About</a>
+            <a href="/service.html">Services</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+        <div class="md:hidden cursor-pointer">
+            <img id="hamburger" src="./images/hamburger.png" class="invert">
+            <img id="close" src="/images/close.png" class="hidden invert">
+        </div>
+    </div>
+    
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden absolute z-10 fixed opacity-50 top-16 left-0 w-full h-full rounded-md bg-black text-right text-white">
+        <a href="/index.html">Home</a>
+        <a href="/About.html">About</a>
+        <a href="/service.html">Services</a>
+        <a href="/contact.html">Contact</a>
+    </div>
+    
+    <!-- Main Content -->
+    <div class="grid grid-cols-1 md:grid-cols-2 mx-auto py-11 mb-2 w-full max-w-6xl">
+        <div class="relative mx-auto rounded-2xl w-52 h-52 border border-r-2 bg-yellow-400">
+            <img src="images/img1.png" alt="Profile Image" class="w-44 h-44 absolute z-0 object-cover rounded-xl mx-auto inset-0">
+        </div>
+        <div class="flex flex-col items-start justify-center py-6">
+            <h1 class="text-yellow-400 text-center font-bold text-2xl md:text-4xl">Welcome!</h1>
+            <h1 class="text-yellow-400 text-center font-bold text-2xl md:text-4xl">
+                I am <span class="text-brown-400">Website Developer</span>
+            </h1>
+        </div>
+    </div>
+
+    <div class="w-full bg-yellow-400">
+        <h1 class="text-center font-bold text-white text-xl py-4">About Me</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-center mx-auto max-w-6xl p-4">
+            <img src="images/img.png" alt="Profile Image" class="object-cover w-full h-64 md:h-72 rounded-lg shadow-lg">
+            <div class="text-justify text-white">
+                I am a website developer with a Bachelor's degree in Anatomy from Ladoke Akintola University of Technology. I specialize in creating dynamic and responsive websites using HTML, CSS, Tailwind CSS, and React.js, blending creativity with technical expertise to deliver outstanding web experiences.
+            </div>
+        </ div>
+    </div>
+    
+    <div class="bg-white p-2 mt-2">
+        <div class="text-center font-bold text-2xl text-yellow-400 py-4">
+            <h1>SERVICES</h1>
+        </div>
+        <div class="md:flex justify-center">
+            <div class="bg-yellow-400 bounce-out my-4 mx-2 md:w-80 md:mx-4 p-6 rounded-lg">
+                <h1 class="text-center text-white text-2xl font-bold mb-4">HTML AND CSS</h1>
+                <p class="text-white">I am a website developer specializing in HTML and CSS. I create responsive, user-friendly websites with custom layouts, clean SEO-friendly code, and modern designs that work seamlessly across all devices and browsers.</p>
+            </div>
+            <div class="bg-yellow-400 bounce-out my-4 mx-2 md:w-80 md:mx-4 p-6 rounded-lg">
+                <h1 class="text-center text-2xl text-white font-bold mb-4">React JS</h1>
+                <p class="text-white">I am a website developer specializing in React.js. I build dynamic, fast, and responsive web applications with interactive user interfaces, efficient state management, and seamless performance across all devices.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-white md:mt-4">
+        <div class="text-center text-2xl text-yellow-400 font-bold py-4">
+            <h1>Portfolio</h1>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-6xl mx-auto p-4">
+            <div class="bg-white bounce-out rounded-lg shadow-lg p-4">
+                <img src="images/todo1.jpg" alt="Project 1" class="w-full h-48 object-cover rounded-lg mb-2"> <!-- Adjusted height -->
+                <h2 class="text-xl font-bold text-gray-600">TO-DO List</h2>
+                <p class="text-gray-600">A brief description of the project, highlighting the technologies used and the purpose of the project.</p>
+                <a href="https://todo-list-fawn-five-64.vercel.app/" class="bg-yellow-400 text-gray-600 hover:text-white rounded-2xl px-2">Click to view the website</a>
+            </div>
+            <div class="text-yellow-400 bounce-out rounded-lg shadow-lg p-4">
+                <img src="images/skincare1.jpg" alt="Project 2" class="w-full h-48 object-cover rounded-lg mb-2"> <!-- Adjusted height -->
+                <h2 class="text-xl font-bold text-gray-600">Skincare Website</h2>
+                <p class="text-gray-600">A brief description of the project, highlighting the technologies used and the purpose of the project.</p>
+                <a href="https://skincare-seven.vercel.app/" class="bg-yellow-400 text-gray-600 hover:text-white rounded-2xl px-2">Click to view the website</a>
+            </div>
+            <div class="bg-white bounce-out rounded-lg shadow-lg p-4">
+                <img src="images/weather1.jpg" alt="Project 3" class="w-full h-48 object-cover rounded-lg mb-2"> <!-- Adjusted height -->
+                <h2 class="text-xl font-bold text-gray-600">Weather Website</h2>
+                <p class="text-gray-600">A brief description of the project, highlighting the technologies used and the purpose of the project.</p>
+                <a href="https://weather-qaog.vercel.app/" class="bg-yellow-400 text-gray-600 hover:text-white rounded-2xl px-2">Click to view the website</a> 
+            </div>
+            <div class="bg-white bounce-out rounded-lg shadow-lg p-4">
+                <img src="images/ecom.jpg" alt="Project 4" class="w-full h-48 object-cover rounded-lg mb-2"> <!-- Adjusted height -->
+                <h2 class="text-xl font-bold text-gray-600">Simple-Ecommerce Website</h2>
+                <p class="text-gray-600">A brief description of the project, highlighting the technologies used and the purpose of the project.</p>
+                <a href="https://ecom-ebon-alpha.vercel.app/" class="bg-yellow-400 text-gray-600 hover:text-white rounded-2xl px-2">Click to view the website</a> 
+            </div>
+        </div>
+    <h2 class="text-2xl text-yellow-400 text-center font-semibold mb-4">My Skills</h2>
+    <p class="text-xl text-yellow-400 text-center font-semibold mb-4">What I offer:</p>
+    <div class="w-full max-w-2xl bounce-out h-auto flex items-center  rounded shadow-2xl bg-yellow-400 mx-auto mb-2 p-6">
+        <ul class="flex flex-col space-y-4">
+            <li class="text-white">
+                <span class="font-bold text-xl">HTML & CSS:</span> Crafting clean, semantic markup and styling to ensure your website is visually appealing and accessible.
+            </li>
+            <li class="text-white">
+                <span class="font-bold text-xl">Tailwind CSS:</span> Utilizing this utility-first CSS framework to build responsive designs quickly and efficiently, allowing for a consistent look and feel across all devices.
+            </li>
+            <li class="text-white">
+                <span class="font-bold text-xl">React.js:</span> Developing interactive user interfaces with React, enabling seamless navigation and a smooth user experience through component-based architecture.
+            </li>
+        </ul>
+    </div>
+
+    <footer>
+        <div class="bg-white p-20 mx-auto text-center">
+            <div class="flex justify-center space-x-4">
+                <a href="https://web.facebook.com/profile.php?id=100069949094512" class="text-gray-600">
+                    <i class="fab fa-facebook fa-x"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/seyioladimeji790/" class="text-gray-600">
+                    <i class="fab fa-linkedin fa-x"></i>
+                </a>
+                <a href="https://www.instagram.com/seyi6541/" class="text-gray-600">
+                    <i class="fab fa-instagram fa-x"></i>
+                </a>
+                <a href="https://www.tiktok.com/@crytotec790" class="text-gray-600">
+                    <i class="fab fa-tiktok fa-x"></i>
+                </a>
+                <a href="https://x.com/crytotec" class="text-gray-600">
+                    <i class="fab fa-twitter fa-x"></i>
+                </a>
+                <a href="https://github.com/crytotec" class="text-gray-600">
+                    <i class="fab fa-github fa-x"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

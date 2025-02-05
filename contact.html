@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crytotec</title>
+    <link rel='stylesheet' href='style/output.css'>
+    <link rel='stylesheet' href='main.css'>
+    <link rel="shortcut icon" href="images/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body id="body">
+    <!-- Navbar -->
+    <div class="flex items-center cursor-pointer justify-between bg-white sticky z-10 top-0 py-1 ">
+        <div class="flex items-center font-bold text-xl text-gray-600 mx-auto">
+            Cryto<span class="text-red-500">tec</span>
+        </div>
+        <div class="hidden md:flex mx-auto gap-10 justify-center items-center text-gray-600 text-[12px]">
+            <a href="/index.html">Home</a>
+            <a href="/About.html">About</a>
+            <a href="/service.html">Services</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+        <div class="md:hidden cursor-pointer">
+            <img id="hamburger" src="./images/hamburger.png" class="invert">
+            <img id="close" src="/images/close.png" class="hidden invert">
+        </div>
+    </div>
+    
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden absolute z-10 fixed opacity-50 top-16 left-0 w-full h-full rounded-md bg-black text-right text-white">
+        <a href="/index.html">Home</a>
+            <a href="/About.html">About</a>
+            <a href="/service.html">Services</a>
+            <a href="/contact.html">Contact</a>
+    </div>
+    
+   
+    <div class="w-full bg-yellow-400">
+        <h1 class="text-center font-bold text-white text-xl py-4">Contact Me</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-center mx-auto max-w-6xl p-4">
+            <img src="images/img.png" alt="Profile Image" class="object-cover w-full h-64 md:h-72 rounded-lg shadow-lg">
+            <div class="text-justify text-white">
+                <p>I am a website developer with a Bachelor's degree in Anatomy from Ladoke Akintola University of Technology. I specialize in creating dynamic and responsive websites using HTML, CSS, Tailwind CSS, and React.js, blending creativity with technical expertise to deliver outstanding web experiences.</p>
+                <p class="mt-4">If you have any questions or would like to discuss a project, feel free to reach out to me through the contact information below:</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class=" w-full sm:w-1/2 mx-auto mt-4 bg-white shadow-2xl border-yellow-400 border-r-2 p-8">
+        <h2 class="text-2xl text-yellow-400 text-center font-semibold mb-4">Get in Touch</h2>
+        <div class="max-w-lg mx-auto text-gray-700">
+            <p class="mb-2"><strong>Email:</strong> <a href="mailto:your-email@example.com" class="text-yellow-400">seyioladimeji790@gmail.com</a></p>
+            <p class="mb-2"><strong>Phone:</strong> <a href="tel:+1234567890" class="text-yellow-400">+2349062051901</a></p>
+            <p class="mb-2"><strong>Location:</strong> Ogbomosho, Oyo State, Nigeria.</p>
+            <p class="mt-4">Feel free to connect with me on social media:</p>
+            <div class="flex justify-center space-x-4 mt-2">
+
+                <a href="https://web.facebook.com/profile.php?id=100069949094512" class="text-gray-600">
+                    <i class="fab fa-facebook fa-x"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/seyioladimeji790/" class="text-gray-600">
+                    <i class="fab fa-linkedin fa-x"></i>
+                </a>
+                <a href="https://www.instagram.com/seyi6541/" class="text-gray-600">
+                    <i class="fab fa-instagram fa-x"></i>
+                </a>
+                <a href="https://www.tiktok.com/@crytotec790" class="text-gray-600">
+                    <i class="fab fa-tiktok fa-x"></i>
+                </a>
+                <a href="https://x.com/crytotec" class="text-gray-600">
+                    <i class="fab fa-twitter fa-x"></i>
+                </a>
+                <a href="https://github.com/crytotec" class="text-gray-600">
+                    <i class="fab fa-github fa-x"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
