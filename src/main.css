@@ -10,7 +10,15 @@
     }
 }
 
+a:hover{
+    color:blue;
+    duration:0.5s;
+}
 /* Apply the bounce effect on hover */
 .bounce-out:hover {
     animation: bounce-out 0.5s ease forwards;
+}
+
+#b{
+    width:500px
 }
